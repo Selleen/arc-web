@@ -1,0 +1,143 @@
+[
+  {
+    "authors": "Vera Molnar",
+    "title": "Toward aesthetic guidelines for paintings with the aid of a computer",
+    "venue": "Leonardo",
+    "pages": "185-189",
+    "year": 1975,
+    "publisher": "JSTOR"
+  },
+  {
+    "authors": "Bernard Lévy",
+    "title": "Daniel Langlois: archiviste des oeuvres d'arts médiatiques",
+    "venue": "Vie des arts",
+    "volume": "52",
+    "number": "210",
+    "pages": "74-75",
+    "year": 2008,
+    "publisher": "Érudit"
+  },
+  {
+    "authors": "Paul Cohen",
+    "title": "Harold cohen and AARON",
+    "venue": "AI Magazine",
+    "volume": "37",
+    "number": "4",
+    "pages": "63-66",
+    "year": 2016
+  },
+  {
+    "authors": "Margaret A. Boden and Ernest A. Edmonds",
+    "title": "What is generative art?",
+    "venue": "Digital Creativity",
+    "volume": "20",
+    "number": "1-2",
+    "pages": "21-46",
+    "year": 2009,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/14626260902867915"
+  },
+  {
+    "authors": "Alan Dorin, Jon McCabe, Jon McCormack, Gordon Monro, Mitchell Whitelaw",
+    "title": "A framework for understanding generative art",
+    "venue": "Digital Creativity",
+    "volume": "23",
+    "number": "3-4",
+    "pages": "239-259",
+    "year": 2012,
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/14626268.2012.709940"
+  },
+  {
+    "authors": "Casey Reas and Ben Fry",
+    "title": "Processing: a learning environment for creating interactive web graphics",
+    "venue": "Proceedings of SIGGRAPH Web Graphics",
+    "pages": "1-1",
+    "year": 2003,
+    "url": "https://history.siggraph.org/learning/processing-a-learning-environment-for-creating-interactive-web-graphics-by-reas-and-fry/"
+  },
+  {
+    "authors": "Daye Nam, Andrew Macvean, Bogdan Vasilescu, Vincent Hellendoorn, Brad Myers",
+    "title": "Using an LLM to Help With Code Understanding",
+    "year": 2023,
+    "venue": "Preprint",
+    "publisher": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/paper/Using-an-LLM-to-Help-with-Code-Understanding-Nam-Macvean"
+  },
+  {
+    "authors": "Toufique Ahmed, Premkumar Devanbu, Christoph Treude, Michael Pradel",
+    "title": "Can LLMs Replace Manual Annotation of Software Engineering Artifacts?",
+    "year": 2024,
+    "venue": "Preprint",
+    "publisher": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/paper/Can-LLMs-Replace-Manual-Annotation-of-Software-Ahmed-Devanbu"
+  },
+  {
+    "authors": "Yuvraj Virk, Premkumar Devanbu, Toufique Ahmed",
+    "title": "Calibration of Large Language Models on Code Summarization",
+    "year": 2025,
+    "venue": "Preprint",
+    "publisher": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/paper/Calibration-of-Large-Language-Models-on-Code-Virk-Devanbu"
+  },
+  {
+    "authors": "Bent Flyvbjerg",
+    "title": "Five Misunderstandings About Case-Study Research",
+    "venue": "Qualitative Inquiry",
+    "volume": "12",
+    "number": "2",
+    "pages": "219-245",
+    "year": 2006,
+    "month": "April",
+    "url": "https://arxiv.org/pdf/1304.1186"
+  },
+  {
+    "authors": "Per Runeson, Martin Host, Austen Rainer, Bjorn Regnell",
+    "title": "Case Study Research in Software Engineering: Guidelines and Examples",
+    "venue": "Book",
+    "publisher": "John Wiley & Sons",
+    "year": 2012,
+    "url": "https://eclass.hmu.gr/modules/document/"
+  },
+  {
+    "authors": "Deena Engel and Glenn Wharton",
+    "title": "Reading between the lines: Source code documentation as a conservation strategy for software-based art",
+    "venue": "Studies in Conservation",
+    "volume": "59",
+    "number": "6",
+    "pages": "404-415",
+    "year": 2014,
+    "url": "https://www.tandfonline.com/doi/full/10.1179/2047058413Y.0000000115"
+  },
+  {
+    "authors": "Patrícia Falcão",
+    "title": "Preservation of software-based art at Tate",
+    "venue": "Digital Art through the Looking Glass",
+    "pages": "271-287",
+    "publisher": "Edition Donau-Universität",
+    "year": 2019,
+    "url": "https://mediarep.org/entities/bookpart/09958053-493f-46bf-8587-e7fc6c5d87a7/full"
+  },
+  {
+    "authors": "J. D. Zamfrescu-Pereira, Richmond Wong, Bjoern Hartmann, Qian Yang",
+    "title": "Why Johnny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
+    "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)",
+    "year": 2023,
+    "month": "April",
+    "address": "Hamburg, Germany",
+    "publisher": "ACM",
+    "pages": "1-21",
+    "doi": "10.1145/3544548.3581388",
+    "url": "https://doi.org/10.1145/3544548.3581388"
+  },
+  {
+    "authors": "Hari Subramonyam, Roy Pea, Christopher Lawrence Pondoc, Maneesh Agrawala, Colleen Seifert",
+    "title": "Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24)",
+    "year": 2024,
+    "month": "May",
+    "address": "Honolulu, HI, USA",
+    "publisher": "ACM",
+    "pages": "1-19",
+    "doi": "10.1145/3613904.3642754",
+    "url": "https://doi.org/10.1145/3613904.3642754"
+  }
+]
