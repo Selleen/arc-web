@@ -2,7 +2,7 @@
   {
     "id": "A1",
     "title": "black&white_rotate",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "repoUrl": "None",
     "year":"2020",
     "classification":{
@@ -22,7 +22,7 @@
   {
     "id": "A2",
     "title": "flowFieldNoiseAudio",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "repoUrl": "None",
     "year":"2020",
     "classification":{
@@ -42,9 +42,10 @@
   {
     "id": "A3",
     "title": "plottable004",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "repoUrl": "None",
     "year":"2020",
+    "hide": true,
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
       "interaction": ["none"], 
@@ -62,7 +63,7 @@
   {
     "id": "A4",
     "title": "sound003",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "repoUrl": "None",
     "year":"2020",
     "classification":{
@@ -83,7 +84,7 @@
   {
     "id": "A5",
     "title": "vertical_BW_stripes",
-    "artist": "Unknown",
+    "artist": "Yogya Gamage",
     "year": "2020",
     "repoUrl": "None",
     "classification":{
@@ -104,7 +105,7 @@
   {
     "id": "A6",
     "title": "akuru",
-    "artist": "Unknown",
+    "artist": "Nadia Gonzalez",
     "year": "2020",
     "repoUrl": "None",
     "classification":{
@@ -125,7 +126,7 @@
   {
     "id": "A7",
     "title": "gaspe004",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "year": "2020",
     "repoUrl": "None",
     "classification":{
@@ -146,7 +147,7 @@
   {
     "id": "A8",
     "title": "kurutu",
-    "artist": "Unknown",
+    "artist": "Yogya Gamage",
     "year": "2020",
     "repoUrl": "None",
     "classification":{
@@ -168,7 +169,7 @@
   {
     "id": "A9",
     "title": "papissa",
-    "artist": "Unknown",
+    "artist": "Nadia Gonzalez",
     "year": "2020",
     "repoUrl": "None",
     "classification":{
@@ -188,8 +189,9 @@
   {
     "id": "A10",
     "title": "para",
-    "artist": "Unknown",
+    "artist": "Benoit Baudry",
     "year": "2020",
+    "hide": true,
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
@@ -210,9 +212,10 @@
   },
   {
     "id": "A11",
-    "title": "Unknown",
-    "artist": "Abhi-Gautam",
+    "title": "plein014-core",
+    "artist": "Benoit Baudry",
     "year": "2020",
+    "hide": true,
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
@@ -234,8 +237,9 @@
   {
     "id": "A12",
     "title": "viduru",
-    "artist": "Unknown",
+    "artist": "Yogya Gamage",
     "year": "2020",
+    "hide": true,
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image", "synthesized_sound", "randomness"], 
@@ -419,6 +423,7 @@
     "title": "Piano_Pedals_sketch",
     "artist": "barbaraim",
     "year": "2020",
+    "hide": true,
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_sound","synthesized_image","interactions"], 
@@ -460,6 +465,7 @@
     "title": "Strange_Things_Facemesh_Webcam_sketch",
     "artist": "barbaraim",
     "year": "2020",
+    "hide": true,
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
@@ -483,6 +489,7 @@
     "title": "Telar_sketch",
     "artist": "barbaraim",
     "year": "2020",
+    "hide": true,
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
@@ -675,6 +682,7 @@
     "title": "bezir_curves_sketch",
     "artist": "Abhi-Gautam",
     "year": "2020",
+    "hide":true,
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image", "randomness"],
@@ -906,6 +914,7 @@
     "title": "green_text_fall_sketch",
     "artist": "Abhi-Gautam",
     "year": "2020",
+    "hide":true,
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
@@ -1009,6 +1018,7 @@
     "title": "Maze_sketch",
     "artist": "pratiksinghal48",
     "year": "2020",
+    "hide":true,
     "repoUrl": "https://github.com/pratiksinghal48/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],

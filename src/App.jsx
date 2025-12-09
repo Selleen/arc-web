@@ -7,14 +7,14 @@ import LibraryPage from "./pages/LibraryPage";
 import BestPracticesPage from "./pages/BestPracticesPage";
 import ReferencesPage from "./pages/ReferencesPage";
 import "./index.css";
-import logoDark from "./assets/arcworld-logo-dark.svg";
+import logoLight from "./assets/arcworld-logo-light.svg";
 
 function App() {
   return (
     <div className="app">
       <header className="top-bar">
         <div className="logo-wrap">
-          <img src={logoDark} alt="ARC-World logo" className="logo-img" />
+          <img src={logoLight} alt="ARC-World logo" className="logo-img" />
         </div>
 
         <nav className="nav">

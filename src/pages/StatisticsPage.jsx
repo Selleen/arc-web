@@ -52,22 +52,22 @@ function StatsChart({ title, fieldName, barColor }) {
               <CartesianGrid strokeDasharray="3 3" opacity={0.15} />
               <XAxis
                 type="number"
-                tick={{ fill: "#cfd2ff", fontSize: 12 }}
-                stroke="#7a80c5"
+                tick={{ fill: "#000000ff", fontSize: 12 }}
+                stroke="#000000ff"
               />
               <YAxis
                 type="category"
                 dataKey="label"
-                tick={{ fill: "#e0e4ff", fontSize: 12 }}
+                tick={{ fill: "#e24532", fontSize: 12 }}
                 width={140}
-                stroke="#7a80c5"
+                stroke="#000000ff"
               />
               <Tooltip
                 contentStyle={{
-                  background: "rgba(10,12,30,0.95)",
+                  background: "rgba(249, 255, 228, 0.95)",
                   border: "1px solid rgba(120,130,210,0.8)",
                   borderRadius: 8,
-                  color: "#fff",
+                  color: "#000000ff",
                   fontSize: 12,
                 }}
               />

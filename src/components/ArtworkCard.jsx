@@ -16,6 +16,7 @@ function ArtworkCard({ artwork, onOpenDemo}) {
   const hasBlockedMaterial = material_and_processes.some((m) =>
   BLOCKED_TYPES.includes(m)
   );
+  const isHidden = artwork.hide === "yes" || artwork.hide === true;
 
   return (
     <div className="artwork-card">
@@ -58,7 +59,7 @@ function ArtworkCard({ artwork, onOpenDemo}) {
           </a>
         )}
 
-        {artwork.metadata.content && !hasBlockedMaterial && (
+        {artwork.metadata.content && !hasBlockedMaterial && !isHidden && (
           <button
             type="button"
             className="action-button"

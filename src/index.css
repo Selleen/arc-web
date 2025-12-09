@@ -1,16 +1,18 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0b1020;
-  color: #f5f5f5;
+  background: #f3f3f3;          /* fondo claro general */
+  color: #222222;               /* texto principal oscuro */
 }
 
+/* dejamos el fondo del app transparente para que se vea el body */
 .app {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  padding-top: 64px;
+  padding-top: 70px;            /* coincide con la top-bar */
   position: relative;
+  background: transparent;
 }
 
 .hero {
@@ -26,7 +28,7 @@ body {
 .hero h2 {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #b3b3ff;
+  color: #b9ffb3;
 }
 
 .hero p {
@@ -41,17 +43,19 @@ nav {
 }
 
 .nav a {
-  color: #c3c3ff;
+  color: #222222;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .nav a.active {
-  font-weight: 600;
+  color: #e24532;               /* rojo suave para la sección activa */
   text-decoration: underline;
 }
 
 .nav a:hover {
+  color: #e24532;
   text-decoration: underline;
 }
 
@@ -59,15 +63,17 @@ nav {
   max-width: 1100px;
   margin: 2rem auto;
   padding: 2rem 1.8rem;
-  background: radial-gradient(circle at top left, #181c3a, #060818 60%, #02030a 100%);
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px rgba(7, 23, 190, 0.6);
+  background: #ffffff;                 /* panel blanco */
+  border-radius: 12px;
+  border: 1px solid #dddddd;           /* borde suave */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); /* sombra ligera */
 }
 
 .section h2 {
   margin-bottom: 0.75rem;
-  border-bottom: 1px solid #35395a;
+  border-bottom: 1px solid #e0e0e0;    /* línea muy suave */
   padding-bottom: 0.4rem;
+  color: #e24532;
 }
 
 /*----------------------LIBRARY STYLES ----------------------------------------*/
@@ -89,38 +95,34 @@ nav {
 
   min-width: 230px;
 
-  padding: 0.65rem 1rem;
-  border-radius: 0.65rem;
-  border: 1.5px solid rgba(120, 126, 180, 0.5);
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
 
-  background: rgba(25, 28, 60, 0.65);
-  backdrop-filter: blur(6px);
-
+  background: #ffffff;
   font-size: 0.9rem;
   font-weight: 500;
-  color: #e2e4ff !important;
+  color: #333333 !important;
 
   cursor: pointer;
-  transition: all 0.22s ease, color 0.15s ease;
+  transition: all 0.2s ease;
 }
 
 .filter-trigger-link:hover {
-  border-color: #7d86ff;
-  box-shadow: 0 0 12px rgba(125, 134, 255, 0.6),
-              inset 0 0 4px rgba(125, 134, 255, 0.35);
-  background: rgba(30, 35, 80, 0.9);
-  color: #ffffff !important;
+  border-color: #e24532;
+  box-shadow: 0 0 8px rgba(226, 69, 50, 0.22);
+  background: #fff7f3;
+  color: #e24532 !important;
 }
 
 .filter-count-badge {
   font-size: 0.7rem;
   padding: 2px 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  color: #cfd2ff;
-  border: 1px solid rgba(160, 170, 255, 0.15);
+  background: #f2f2f2;
+  color: #42cc0b;
+  border: 1px solid #dddddd;
 }
-
 .filter-trigger-link .anticon {
   font-size: 0.75rem;
   opacity: 0.9;
@@ -132,30 +134,29 @@ nav {
 }
 
 .ant-dropdown-menu {
-  background: rgba(15, 17, 45, 0.95);
-  backdrop-filter: blur(8px);
+  background: #ffffff;
   border-radius: 10px !important;
-  border: 1px solid rgba(110, 120, 200, 0.45);
+  border: 1px solid #dddddd;
   padding: 6px 0 !important;
-  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 .ant-dropdown-menu-item {
-  font-size: 0.85rem;
-  color: #d8d9ff;
-  padding: 6px 12px;
-  transition: all 0.15s ease;
+  font-size: 0.9rem;
+  color: #333333;
+  padding: 8px 14px;
+  transition: background 0.15s ease, color 0.15s ease;
   cursor: pointer;
 }
 
 .ant-dropdown-menu-item:hover {
-  background: rgba(115, 124, 255, 0.25) !important;
-  color: #7788f8 !important;
+  background: #f5f5f5 !important;
+  color: #e24532 !important;
 }
 
 .ant-dropdown-menu-item-selected {
-  background: rgba(115, 124, 255, 0.25) !important;
-  color: #7788f8 !important;
+  background: #ffe4d9 !important;
+  color: #e24532 !important;
 }
 
 .filter-trigger-link a {
@@ -196,61 +197,93 @@ nav {
   transform: scale(0.97);
 }
 /*----------------------------------DROPDOWN FILTERS--------------------------------------------*/
-.filter-trigger-button {
-  background-color: #1f2b40;
-  color: #d6e4ff;
-  border: 1px solid #334666;
-  border-radius: 6px;
-  padding: 6px 14px;
-  font-size: 0.85rem;
+.filter-trigger-button,
+.action-button {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #cccccc;
+  border-radius: 999px;                /* pill como en muchos sitios de arte */
+  padding: 6px 16px;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.18s ease-in-out;
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   text-decoration: none;
+  font-weight: 400;
   user-select: none;
 }
 
-.filter-trigger-button:hover {
-  background-color: #2a3c5f;
-  border-color: #4a6bb0;
-  color: #ffffff;
-  box-shadow: 0 0 10px rgba(74, 107, 176, 0.4);
+.filter-trigger-button:hover,
+.action-button:hover {
+  background-color: #fff3ef;           /* toque salmón muy suave */
+  border-color: #e24532;               /* rojo de acento */
+  color: #e24532;
+  box-shadow: 0 0 6px rgba(226, 69, 50, 0.25);
 }
 
-.filter-trigger-button:active {
+.filter-trigger-button:active,
+.action-button:active {
   transform: scale(0.97);
 }
 /*-----------------------REFERENCES---------------------------------------*/
-@media(min-width: 900px) {
+/* ====== LISTA DE REFERENCIAS ====== */
+
+.ref-list {
+  margin: 2rem auto;
+  padding: 0;
+  list-style: none;
+  max-width: 1000px;
+  column-gap: 2.5rem;
+}
+
+@media (min-width: 900px) {
   .ref-list {
     columns: 2;
-    column-gap: 3rem;
   }
 }
+
 .ref-item {
-  margin-bottom: 1.2rem;
-  text-align: justify;
+  margin-bottom: 1.6rem;
+  text-align: left;
+  color: #222;
+  line-height: 1.45;
+  font-size: 0.95rem;
 }
+
+
+/* ====== TITULO DE LA REFERENCIA (ITALIC) ====== */
 
 .ref-title {
   font-style: italic;
-  color: #cacfff;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 0.1px;
 }
 
+
+/* ====== AUTORES ====== */
+
+.ref-authors {
+  font-weight: 600;
+  color: #000;
+}
+
+
+/* ====== ENLACES ====== */
+
 .ref-url {
-  color: #2d7dde;
-  text-decoration: underline;
-  transition: 0.2s;
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0,0,0,0.4);
+  transition: all 0.18s ease;
+  font-size: 0.9rem;
 }
 
 .ref-url:hover {
-  color: #cacfff;
-}
-
-.ref-authors {
-  font-weight: 500;
-  color: #cacfff;
+  color: #cc322b;               /* rojo suave artístico */
+  border-bottom-color: #cc322b;
 }
 /*--------------------------------------------------------------*/
 
@@ -274,7 +307,7 @@ nav {
 .results-info {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  color: #bbbbff;
+  color: #fc1010;
 }
 
 .artworks-grid {
@@ -284,10 +317,16 @@ nav {
 }
 
 .artwork-card {
-  background: #151a30;
-  border-radius: 0.75rem;
+  background: #fafafa;                 /* gris muy clarito */
+  border-radius: 10px;
   padding: 1rem;
-  border: 1px solid #262b40;
+  border: 1px solid #dddddd;
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.artwork-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .artwork-card h3 {
@@ -297,7 +336,7 @@ nav {
 .artist {
   margin: 0;
   font-size: 0.85rem;
-  color: #a0a0ff;
+  color: #e24532;
 }
 
 .description {
@@ -325,7 +364,7 @@ nav {
 
 .links a {
   font-size: 0.85rem;
-  color: #88c0ff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -333,6 +372,7 @@ nav {
   text-decoration: underline;
 }
 
+/* BARRA SUPERIOR: clara con borde sutil */
 .top-bar {
   position: fixed;
   top: 0;
@@ -343,18 +383,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.5rem;
-  background: rgba(5, 8, 24, 0.92);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: #f6f6f6;          /* barra clara */
+  border-bottom: 1px solid #dddddd;
   z-index: 10;
 }
 
+/* FOOTER MÁS SUAVE */
 .footer {
   margin-top: 1rem;
   padding: 1rem 1.5rem 2rem;
   text-align: center;
   font-size: 0.8rem;
-  color: #8080aa;
+  color: #666666;
 }
 
 
@@ -409,23 +449,26 @@ nav {
   color: #f5f5ff;
 }
 
+/* HOME HERO: canvas oscuro en centro, fondo de página claro */
 .home-hero {
   position: relative;
-  min-height: calc(100vh - 64px);
+  min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background: #f3f3f3;
 }
 
+/* canvas p5 centrado pero el resto claro */
 .p5-background {
-  position: absolute;  
-  inset: 0;           
+  position: absolute;
+  inset: 0;
   z-index: 0;
   pointer-events: none;
 }
 
-
+/* TITULAR CENTRAL SIN GLOW, ESTILO SENCILLO */
 .home-title {
   position: relative;
   text-align: center;
@@ -434,18 +477,26 @@ nav {
 }
 
 .home-title h1 {
-  font-size: clamp(3rem, 6vw, 4.5rem);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #fdfdfd;
-  text-shadow: 0 0 25px rgba(255, 80, 80, 0.8);
+  font-size: clamp(3rem, 6vw, 4rem);
+  letter-spacing: 0.08em;
+  text-transform: none;
+  margin: 0 0 0.5rem;
+  color: #ffffff;               /* casi negro */
+  text-shadow: none;            /* quitamos el brillo rojo */
 }
 
 .home-title p {
-  margin-top: 1rem;
-  font-size: 1.05rem;
-  color: #d5d5ff;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  color: #fcffa4;
+}
+
+/* Si quieres reforzar el rojo de acento (por ejemplo enlaces dentro del contenido) */
+a {
+  color: #e24532;
+}
+a:hover {
+  color: #b93022;
 }
 
 @keyframes floatTitle {
@@ -457,6 +508,8 @@ nav {
   }
 }
 
+/* CONTENIDO PRINCIPAL */
 .main-content {
-  min-height: calc(100vh - 64px - 60px);
+  min-height: calc(100vh - 70px - 60px);
+  padding: 2rem 3rem;
 }

@@ -5,7 +5,8 @@
     "venue": "Leonardo",
     "pages": "185-189",
     "year": 1975,
-    "publisher": "JSTOR"
+    "publisher": "JSTOR",
+    "url": "https://www.jstor.org/stable/1573236"
   },
   {
     "authors": "Bernard Lévy",
@@ -15,7 +16,8 @@
     "number": "210",
     "pages": "74-75",
     "year": 2008,
-    "publisher": "Érudit"
+    "publisher": "Érudit",
+    "url": "https://www.erudit.org/en/journals/va/2008-v52-n210-va1094571/52453ac/abstract/"
   },
   {
     "authors": "Paul Cohen",
@@ -24,7 +26,8 @@
     "volume": "37",
     "number": "4",
     "pages": "63-66",
-    "year": 2016
+    "year": 2016,
+    "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2695"
   },
   {
     "authors": "Margaret A. Boden and Ernest A. Edmonds",
@@ -60,7 +63,7 @@
     "year": 2023,
     "venue": "Preprint",
     "publisher": "Semantic Scholar",
-    "url": "https://www.semanticscholar.org/paper/Using-an-LLM-to-Help-with-Code-Understanding-Nam-Macvean"
+    "url": "https://dl.acm.org/doi/abs/10.1145/3597503.3639187"
   },
   {
     "authors": "Toufique Ahmed, Premkumar Devanbu, Christoph Treude, Michael Pradel",
@@ -68,7 +71,7 @@
     "year": 2024,
     "venue": "Preprint",
     "publisher": "Semantic Scholar",
-    "url": "https://www.semanticscholar.org/paper/Can-LLMs-Replace-Manual-Annotation-of-Software-Ahmed-Devanbu"
+    "url": "https://ieeexplore.ieee.org/document/11025652"
   },
   {
     "authors": "Yuvraj Virk, Premkumar Devanbu, Toufique Ahmed",
@@ -76,7 +79,7 @@
     "year": 2025,
     "venue": "Preprint",
     "publisher": "Semantic Scholar",
-    "url": "https://www.semanticscholar.org/paper/Calibration-of-Large-Language-Models-on-Code-Virk-Devanbu"
+    "url": "https://dl.acm.org/doi/abs/10.1145/3729400"
   },
   {
     "authors": "Bent Flyvbjerg",
@@ -95,7 +98,7 @@
     "venue": "Book",
     "publisher": "John Wiley & Sons",
     "year": 2012,
-    "url": "https://eclass.hmu.gr/modules/document/"
+    "url": "https://dl.acm.org/doi/book/10.5555/2361717"
   },
   {
     "authors": "Deena Engel and Glenn Wharton",

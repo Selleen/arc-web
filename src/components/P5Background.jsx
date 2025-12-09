@@ -7,7 +7,7 @@ function P5Background() {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    console.log("✅ P5Background useEffect - creating p5 instance");
+    console.log("P5Background useEffect - creating p5 instance");
     const p5Instance = new p5((p) => darkflowers2Sketch(p, containerRef.current), containerRef.current);
 
     return () => {
